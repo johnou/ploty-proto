@@ -1,0 +1,9 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: bufferType","Param: cipher","Param: sslProvider"
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,89.538158,2.454000,"ops/s",HEAP,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,JDK
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,576.527557,5.973315,"ops/s",HEAP,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,OPENSSL
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,89.866446,1.641565,"ops/s",HEAP,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,JDK
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,587.594551,5.406512,"ops/s",HEAP,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,OPENSSL
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,89.864203,1.565249,"ops/s",DIRECT,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,JDK
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,582.425861,6.302226,"ops/s",DIRECT,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,OPENSSL
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,91.298729,2.051708,"ops/s",DIRECT,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,JDK
+"io.netty.microbench.handler.ssl.SslEngineHandshakeBenchmark.handshake","thrpt",1,20,586.400213,7.823383,"ops/s",DIRECT,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,OPENSSL
